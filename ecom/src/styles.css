@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Public Sans, sans-serif !important;
+}
 .p-abs {
   position: absolute;
 }
@@ -146,9 +154,47 @@
   min-width: 360px !important;
 }
 
-
+.lh-0 {
+  line-height: 0 !important;
+}
 .nav-item.dropdown:hover > .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-  }
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.dashed-border {
+  border: 1px dashed #000;
+}
+.fs-16 {
+  font-size: 16px !important;
+}
+.td-none {
+  text-decoration: none;
+}
+.l-c {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin: 0;
+  gap: 10px;
+}
+.l-c > li{
+  list-style: none;
+}
+.custom-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #4a5568;
+  line-height: 27px;
+  margin: 0;
+  text-decoration: none;
+}
+a{
+  text-decoration: none !important;
+}
+ngb-rating > span{
+  color:#ffb321;
+}
