@@ -44,3 +44,11 @@
 .p-block {
   padding-block-start: 50px;
 }
+.a-img{
+  display: flex;
+  cursor: pointer;
+}
+.a-img > img{
+  height:calc(100px + .025*(100vw - 320px));
+  margin: auto;
+}

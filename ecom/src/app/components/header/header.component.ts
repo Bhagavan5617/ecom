@@ -14,7 +14,6 @@ export class HeaderComponent {
   @HostListener('window:scroll',[])
   onWindowScroll() {
     const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-
-    this.isFixed = scrollPosition > 100; // Apply 'fixed-position' when scrolling past 50px
+    this.isFixed = scrollPosition > 50; 
   }
 }

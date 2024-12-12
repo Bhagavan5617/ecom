@@ -11,6 +11,7 @@
   align-items: center;
   gap: 5px;
   position: relative;
+  cursor: pointer;
 }
 .list-column-1 > li:hover {
   transition: 0.5s ease;
@@ -63,6 +64,7 @@
   align-items: center;
   gap: 8px;
   list-style: none;
+  cursor: pointer;
 }
 .list-column > li:hover > p,
 .list-column > li:hover > span {
@@ -70,7 +72,7 @@
 }
 
 .footer{
-  padding-block-start: 50px;
+  padding-block: 50px;
   background-image: url(../../../assets/footer-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
