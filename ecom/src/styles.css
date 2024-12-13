@@ -81,7 +81,9 @@ body {
 .l-10 {
   left: 10px;
 }
-
+.l-a{
+  left: auto;
+}
 .r-0 {
   right: 0;
 }
