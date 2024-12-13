@@ -8,57 +8,59 @@
       </div>
     </div>
     <div class="col-lg-8">
-      <table class="table cart-table">
-        <tbody>
-          <tr *ngFor="let i of [1, 1, 1, 1, 1, 1, 1, 1]">
-            <td>
-              <div class="product-details align-items-center gap-3 flex-row">
-                <img width="60" src="../../../assets/Watermelon_4.png" />
-                <div class="flex-column align-items-start">
-                  <p>Watermelon</p>
-                  <span>
-                    <b>Sold by:</b>
-                    Fresh Cart
-                  </span>
-                  <span>
-                    <b>Unit :</b>
-                    1kg
-                  </span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <div class="product-details">
-                <span> Price </span>
-                <label>$46.89 <del>$56.90</del></label>
-                <p>You Save: $10.90</p>
-              </div>
-            </td>
-            <td>
-              <div class="product-details">
-                <span>Quantity</span>
-                <div>
-                  <a> - </a>
-                  <span>1</span>
-                  <a>+</a>
-                </div>
-              </div>
-            </td>
-            <td>
-              <div class="product-details">
-                <span>Total</span>
-                <label>$46.89</label>
-              </div>
-            </td>
-            <td>
-              <div class="product-details">
-                <span> Action </span>
-                <a class="text-underline text-danger">Remove</a>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+     <div class="cart-table table-responsive">
+        <table class="table">
+            <tbody>
+              <tr *ngFor="let i of [1, 1, 1, 1, 1, 1, 1, 1]">
+                <td>
+                  <div class="product-details align-items-center gap-3 flex-row">
+                    <img width="60" src="../../../assets/Watermelon_4.png" />
+                    <div class="flex-column align-items-start">
+                      <p>Watermelon</p>
+                      <span>
+                        <b>Sold by:</b>
+                        Fresh Cart
+                      </span>
+                      <span>
+                        <b>Unit :</b>
+                        1kg
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="product-details">
+                    <span> Price </span>
+                    <label>$46.89 <del>$56.90</del></label>
+                    <p>You Save: $10.90</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="product-details">
+                    <span>Quantity</span>
+                    <div>
+                      <a> - </a>
+                      <span>1</span>
+                      <a>+</a>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="product-details">
+                    <span>Total</span>
+                    <label>$46.89</label>
+                  </div>
+                </td>
+                <td>
+                  <div class="product-details">
+                    <span> Action </span>
+                    <a class="text-underline text-danger">Remove</a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+     </div>
     </div>
     <div class="col-lg-4">
       <div class="cart-main">
