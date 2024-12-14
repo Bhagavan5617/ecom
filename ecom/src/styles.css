@@ -200,3 +200,58 @@ a{
 ngb-rating > span{
   color:#ffb321;
 }
+
+.p-cat-box {
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: sticky;
+  top: 85px;
+}
+.p-cat-box > h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  position: relative;
+}
+.p-cat-box > h1::before {
+  content: "";
+  height: 1.5px;
+  width: 93px;
+  background-color: #0da487;
+  position: absolute;
+  bottom: -5px;
+}
+.pd {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #f4f4f4;
+}
+.pd > img {
+  width: 100%;
+  height: auto;
+}
+.pd > .pd-div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+.btn-outline-secondary {
+  border: 1px solid #f4f4f4 !important;
+}
+.p-block {
+  padding-block-start: 50px;
+}
+.a-img{
+  display: flex;
+  cursor: pointer;
+}
+.a-img > img{
+  height:calc(100px + .025*(100vw - 320px));
+  margin: auto;
+}

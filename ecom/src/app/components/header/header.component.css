@@ -13,6 +13,15 @@
 .list-group-flesh > li > a {
   display: block;
   cursor: pointer;
+  font-family: 16px;
+  color:rgb(148, 148, 148);
+}
+.list-group-flesh > li > a > i{
+  font-size: 20px;
+}
+.list-group-flesh > li > a.active > i{
+  color:#0da487;
+  font-size: 22px;
 }
 .list-group-flesh > li::after {
   content: "";
@@ -51,7 +60,6 @@
   background-color: white;
   z-index: 1000;
   box-shadow: 0px 1px 4px #f0f0f0;
-  padding: 10px;
   transition: all 0.2s ease-in;
 }
 .header-nav {
