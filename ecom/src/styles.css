@@ -7,6 +7,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: Public Sans, sans-serif !important;
+  letter-spacing: 0.6px;
 }
 .p-abs {
   position: absolute;
@@ -254,4 +255,10 @@ ngb-rating > span{
 .a-img > img{
   height:calc(100px + .025*(100vw - 320px));
   margin: auto;
+}
+
+@media (max-width:568px){
+  .footer{
+    padding-block: 40px !important;
+  }
 }

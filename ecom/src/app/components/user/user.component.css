@@ -132,7 +132,10 @@
   border-radius: 10px;
   background: #f8f8f8;
   padding: 20px;
-  height: 100%;
+}
+.tab-content{    
+  position: sticky;
+  top: 100px;
 }
 .pane-content > h1 {
   text-align: left;
